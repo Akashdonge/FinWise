@@ -22,6 +22,6 @@ public class CustomAuthenticationSuccessHandler implements AuthenticationSuccess
     }
 
     private void redirectBasedOnRole(CustomUserDetails userDetails,HttpServletResponse response) throws IOException {
-        response.sendRedirect("https://finwise-msj9.onrender.com/api/auth/callback");
+        response.sendRedirect("https://fullstack-frontend-th01.onrender.com/api/auth/callback");
     }
 }
