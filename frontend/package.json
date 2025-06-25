@@ -25,7 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "ci-build": "react-scripts build --no-eslint",
+    "ci-build": "set ESLINT_NO_DEV_ERRORS=true && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
